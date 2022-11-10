@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  alpine_container:
+    image: alpine:owais
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: Aavez
+    command: echo "Hiii This is Mohamad Aavez"   
